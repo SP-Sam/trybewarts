@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(30, 30, 30);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-header-logo {
+  height: 50px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  align-self: center;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.form-style {
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 5px;
+  box-shadow: 3px 3px rgb(177, 177, 177);
+}
+
+.trybewarts-login button , #submit-btn {
+  width: 75px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 3px 3px rgb(177, 177, 177);
+  font-size: 0.9em;
+}
+
+#submit-btn {
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 8px;
+  font-size: 1em;
+}
+
+.trybewarts-login button:hover , #submit-btn:hover {
+  cursor: pointer;
+  background-color: rgb(216, 216, 216);
+  transition: 200ms;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#trybewarts-forms-logo {
+  align-self: center;
+  justify-content: center;
+  height: 500px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+#evaluation-form h1 {
+  color: rgb(80, 80, 80);
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+#input-name , #input-email , #input-lastname , #house {
+  padding: 10px;
+  box-shadow: none;
+  border: 1px solid grey;
+  width: 320px;
+}
+
+#house {
+  font-size: 0.9em;
+  border-radius: 5px;
+  width: 285px;
+  background-color: rgb(243, 243, 243);
+}
+
+.inputs {
+  border-bottom: 2px solid rgb(177, 177, 177);
+  padding: 0 0 10px 5px;
+  margin-bottom: 15px;
+}
+
+.family , .conteudos {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  border-bottom: 2px solid rgb(177, 177, 177);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+
+.classifica {
+  display: flex;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  border-bottom: 2px solid rgb(177, 177, 177);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.classifica label {
+  margin-right: 12px;
+  margin-left: -3px;
+}
+
+.comentario {
+  font-size: 1.2em;
+  line-height: 2em;
+  margin-bottom: 10px;
+}
+
+.comentario #textarea {
+  width: 675px;
+  padding: 5px;
+  line-height: 1.2em;
+}
+
+.validate {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: rgb(54, 54, 54);
+  padding: 12px;
+  bottom: 0;
+  color: rgb(231, 226, 226);
+  text-align: center;
+  font-size: 1.1em;
+}
